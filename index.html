@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+    <head>
+        <meta charset="UTF-8">
+        <title>Decodificador</title>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="./css/index.css">
+        <link rel="stylesheet" href="./css/reset.css">
+    </head>
+<body>
+    <header id="container-cabecario">
+        <img class="logo" src="../desafio/imagem/download-removebg-preview.png" alt="desenho do sherlock holmes">
+        </a>
+        <h1 class="titulo-principal">Temos um Misterio ?</h1>
+    </header>
+
+    <main id="container">
+
+       
+        <section class="principal">
+
+          
+            
+           <img class="imagem" src="../desafio/imagem/sherlwhatson-removebg-preview.png" alt="chibi do sherlock holmes e watson">
+            
+            <p class="estilizacaoTexto"> Vamos ajudar ele meu caro John Watson ?</p>
+            
+            <p  class="estilizacaoTexto">Informe o misterio no campo abaixo </p>
+        
+            <textarea class="texto" cols="41" rows="4" placeholder="Escreva seu texto"></textarea>
+
+           
+    
+            <div class="botoes">
+                <button class="btn-cifrar" onclick="btnCifrar()">Cifrar</button>
+                <button class="btn-decifrar" onclick="btnDecifrar()">Decifrar</button>
+             </div>
+        </section>
+
+        
+
+        <section class="mensagem-transformada">
+
+            
+
+            <div class="informacao">
+                <img class="imagem" src="../desafio/imagem/images-removebg-preview.png" alt="sherlock pensando ">
+                <h6  class="estilizacaoTexto">Apenas letras minúsculas e sem acento.</h6>
+             </div>
+             <textarea cols="41" rows="4" class="mensagem" type="text" placeholder=" " oninput="validarInput(this)"></textarea>
+            <button class="btn-copiar" onclick="btnCopiar()">Copiar</button> 
+        </section>
+    </main>
+    <script src="./js/index.js"> </script>
+</body>
+</html>

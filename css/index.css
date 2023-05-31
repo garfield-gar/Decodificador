@@ -1,0 +1,129 @@
+:root{
+    --laranja: #ff7800;
+    --preto : black;
+}
+
+#container-cabecario{
+    width: 980px;
+    margin: 0 auto;
+    text-align: center;
+    padding-bottom: 20px;
+}
+
+.titulo-principal{
+    text-align: center;
+    font-size: 22px;
+    font-weight: bold;
+    color: #ff7800;
+    text-transform: uppercase;
+    text-decoration:underline;
+}
+
+
+
+body{
+    background: black;
+    font-size: 22px;
+    color: #ff7800;
+}
+
+#container{
+    width: 980px;
+    margin: 0 auto;
+}
+
+/*formatação do area principal*/
+
+.principal{
+  display: inline-block;
+  width: 50%;
+  box-sizing: border-box;
+  vertical-align: top;
+  clear: both;
+  border-right: #ff7800 2px solid;
+    
+}
+
+.mensagem-transformada{
+    display: inline-block;
+    width: -50%;
+    box-sizing: border-box;
+    vertical-align:text-top;
+    margin-left: 79px;
+    margin-top: 70px;
+    
+}
+/*Botaoes*/
+
+button{
+    width: 20%;
+    padding: 10px 0;
+    background: #ff7800;
+    color: black;
+    font-weight: bold;
+    font-size: 10px;
+    border: none;
+    border-radius: 5px;
+    transition: 1s all;
+    cursor: pointer;
+    margin: 10px;
+    
+}
+
+/*estilizando o input*/
+
+input{
+    width:20%;
+}
+textarea{
+    text-align: center;
+    text-align: center;
+}
+
+/*estilo textos*/
+
+.estilizacaoTexto{
+    text-align: left;
+    font-size: 22px;
+    color: #ff7800;
+    margin-bottom: 20px;
+}
+
+
+/*Deixando o site responsivel */
+
+@media only screen and  (max-width:480px) {
+
+    #container{
+        width: auto;
+        margin: 5px;
+        border: none;
+    }
+
+    .principal{
+        width: auto;
+        margin: 5px;
+        border: none;
+    }
+
+    .mensagem-transformada{
+        width: auto;
+        margin: 5px;
+        border: none;
+    }
+
+    #container-cabecario{
+        width: auto;
+        margin: 5px;
+        border: none;
+
+    }
+
+    button{
+        width: 25%;
+        text-align: center;font-size: 1.1em;
+       
+    }
+
+
+}
